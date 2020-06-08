@@ -97,5 +97,3 @@ def plot_data(data, line, y, w):
     plt.plot([-1,1], [(w[1] - w[0])/w[2], (-w[1] - w[0])/w[2]], 'g')
     ax.set_aspect('equal','box')
     return
- 
-     
